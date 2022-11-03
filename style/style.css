@@ -1,0 +1,107 @@
+/*fuentes*/
+p {
+    font-size: small;
+}
+
+.parrafo-orador {
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.txt-large {
+    font-size: large;
+}
+
+
+/*Estilos del header*/
+
+/*barra de navegacion*/
+#barra-menu-color {
+    background-color: rgba(53, 58, 64, 255);
+    border-color: rgba(53, 58, 64, 255);
+}
+
+#logo {
+    width: 120px;
+}
+
+.color-comprar-ticket {
+    color: #2ba847;
+}
+
+/*Banner con imagen de Buenos*/
+#portada {
+    border-radius: 0;
+
+}
+
+#imagenBsAs {
+    object-fit: cover;
+    filter: brightness(0.5);
+    height: 95vh;
+}
+
+.btn-success {
+    background-color: #2ba847;
+    border-color: #2ba847;
+}
+
+
+/*Estilos seccion lugar y fecha*/
+
+#foto-honolulu {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+#color-fondo-honolulu {
+    background-color: #353a40;
+}
+
+
+/*Estilos del formulario anotarse como orador*/
+
+#charla-ignite {
+    border-bottom: 2px dotted #0b0b0c;
+}
+
+#btn-enviar {
+    background-color: #96c93e;
+    border-color: #96c93e;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+}
+
+
+/*Estilos de la seccion comprar tickets*/
+.borde-card-ticket {
+    border-radius: 0;
+}
+
+#btn-borrar,
+#btn-resumen {
+    background-color: #96c93e;
+    border-color: #96c93e;
+
+}
+
+
+/*Estilos del footer*/
+
+footer {
+    background: linear-gradient(to right, #1c3643, #1e5372);
+}
+
+#items-footer {
+    justify-content: space-around;
+    align-items: center;
+}
+
+#items-footer a {
+    color: white;
+    font-size: medium;
+    width: min-content;
+    text-align: center;
+}
